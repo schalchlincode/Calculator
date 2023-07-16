@@ -1,6 +1,37 @@
-.buttons {
 
+.calculator {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+    width: 200px; /* adjust as necessary */
+    margin: 0 auto; /* center the calculator */
+  }
+
+
+.btn {
+
+    background-color: red;
 }
 
+
+.rowOne {
+
+display: flex;
+
+ 
+
+}
+
+.rowOne,
+.rowTwo,
+.rowThree,
+.rowFour {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+    flex: 1;
+    margin: 5px; /* adjust as necessary */
+    text-align: center;
+  }
