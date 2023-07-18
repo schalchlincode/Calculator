@@ -3,29 +3,25 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    width: 200px; /* adjust as necessary */
-    margin: 0 auto; /* center the calculator */
+    width: 200px; 
+    margin: 0 auto;
+    border: solid;
   }
 
 
 .btn {
-
-    background-color: red;
+    background-color: black;
+    color: whitesmoke;
 }
 
 
-.rowOne {
 
-display: flex;
-
- 
-
-}
 
 .rowOne,
 .rowTwo,
 .rowThree,
-.rowFour {
+.rowFour,
+.rowFive {
   display: flex;
   justify-content: space-between;
 }
